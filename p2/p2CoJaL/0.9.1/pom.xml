@@ -182,4 +182,26 @@
         <version>${jandex-version}</version>
       </dependency>
     </dependencies>
+
+     <build>
+      <plugins>
+       <plugin>
+          <groupId>fr.smartcontext</groupId>
+          <artifactId>bundle-processor-plugin</artifactId>
+          <version>0.9.0-SNAPSHOT</version>
+          <executions>
+            <execution>
+              <id>Add Eclipse Buddy Policy to Hibernate Bundle</id>
+              <phase>package</phase>
+              <goals>
+                <goal>addEclipseBuddyPolicyToBundle</goal>
+              </goals>
+              <configuration>
+                <bundleFilename>hibernate-core-${hibernate-version}.jar</bundleFilename>
+              </configuration>              
+            </execution>
+          </executions>
+        </plugin>
+      </plugins>
+    </build>
  </project>
