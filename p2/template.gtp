@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>p2 repository: <!--gen:feature target=repo feature=name--> - <!--gen:feature target=repo feature=version--></title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="http://glefur.github.io/assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="http://glefur.github.io/assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="http://glefur.github.io/assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="http://glefur.github.io/assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+						<header>
+							<div class="inner">
+								<h2><!--gen:feature target=repo feature=name--> - <!--gen:feature target=repo feature=version--></h2>
+								<p><!--gen:feature target=repo feature=description--></p>
+							</div>
+						</header>
+
+						<!-- Content -->
+							<div class="wrapper">
+								<div class="inner">
+
+									<section>
+										<h3 class="major">Vous y êtes presque !</h3>
+										<p>Ceci est un site d'installation logiciel Eclipse. Vous pouvez installer les artefacts contenus dans ce dépôt via Eclipse (<a href="http://help.eclipse.org/mars/index.jsp?topic=/org.eclipse.platform.doc.user/tasks/tasks-127.htm">procédure</a> - en).</p>
+										<p style="text-align: center"><img src="http://glefur.github.io/images/install.png" alt="Eclipse installation UI" /></p>
+										
+										<h3 class="major">Contenu du dépôt</h3>
+										<div class="table-wrapper">
+                      <!--gen:service qname=fr.smartcontext.osgitools.p2repository.publisher.services.HTMLGen target=repo operation=repositoryArtifacts-->
+										</div>
+									</section>
+
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="inner">
+							<ul class="copyright">
+								<li>&copy; Goulwen Le Fur, 2015.</li><li><a href="https://twitter.com/glefur_"><span class="icon fa-twitter"></span></a> / <a href="https://github.com/glefur/"><span class="icon fa-github"></span></a> / <a href="https://fr.linkedin.com/in/goulwen-le-fur-91a7334"><span class="icon fa-linkedin"></span></a> / <a href="http://fr.slideshare.net/glefur"><span class="icon fa-slideshare"></span></a> / <a href="https://plus.google.com/116019289950680708574"><span class="icon fa-google-plus"></span></a> / <a href="mailto:goulwen 'dot' lefur _at_ gmail 'dot' com"><span class="icon fa-envelope"></span></a></li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="http://glefur.github.io/assets/js/skel.min.js"></script>
+			<script src="http://glefur.github.io/assets/js/jquery.min.js"></script>
+			<script src="http://glefur.github.io/assets/js/jquery.scrollex.min.js"></script>
+			<script src="http://glefur.github.io/assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="http://glefur.github.io/assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="http://glefur.github.io/assets/js/main.js"></script>
+
+	</body>
+</html>
