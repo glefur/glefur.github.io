@@ -1,14 +1,14 @@
 #!/bin/bash
-REPOSITORIES_PATH=/home/glefur/repositories
+REPOSITORIES_PATH=/home/glefur/Perso/repositories
 OSGITOOLS_REPO_NAME=osgitools
 P2COJAL_REPO_NAME=p2CoJaL
 WEBSITE_REPO_NAME=glefur.github.io
 
-SOFTWARES_PATH=/home/glefur/smartcontext/softwares
-P2_AGENT_NAME=eclipse-osgi-jee
+SOFTWARES_PATH=/home/glefur/Perso/Softwares/eclipses
+P2_AGENT_NAME=mars-osgi-jee
 P2REPOPUBLISHER_NAME=p2repoPublisher
 
-VERSION=0.9.1
+VERSION=0.9.2
 
 HERE=`pwd`
 

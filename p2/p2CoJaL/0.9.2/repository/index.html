@@ -47,10 +47,10 @@
 	</thead>
 	<tbody>
 		<tr>
-			<td>org.hibernate.osgi</td><td>hibernate-osgi</td><td>5.0.6.Final</td><td>A module of the Hibernate O/RM project</td>
+			<td>org.hibernate.osgi</td><td>hibernate-osgi</td><td>4.2.7.Final</td><td>Hibernate ORM OSGi</td>
 		</tr>
 		<tr>
-			<td>org.apache.aries.util.source</td><td>Sources for Apache Aries Util</td><td>1.0.0</td><td>This bundle contains the OSGi common util for Apache Aries</td>
+			<td>org.apache.aries.util.source</td><td>Sources for Apache Aries Util</td><td>1.1.1</td><td>This bundle contains the OSGi common util for Apache Aries</td>
 		</tr>
 		<tr>
 			<td>classmate.source</td><td>Sources for ClassMate</td><td>0.9.0</td><td>Library for introspecting types with full generic information        including resolving of field and method types.</td>
@@ -68,13 +68,7 @@
 			<td>classmate</td><td>ClassMate</td><td>0.9.0</td><td>Library for introspecting types with full generic information        including resolving of field and method types.</td>
 		</tr>
 		<tr>
-			<td>org.hibernate.entitymanager.source</td><td>Sources for hibernate-entitymanager</td><td>5.0.6.Final</td><td>A module of the Hibernate O/RM project</td>
-		</tr>
-		<tr>
-			<td>org.hibernate.javax.persistence.hibernate-jpa-2.1-api</td><td>hibernate-jpa-2.1-api</td><td>1.0.0.Final</td><td></td>
-		</tr>
-		<tr>
-			<td>org.apache.geronimo.specs.geronimo-jta_1.1_spec</td><td>geronimo-jta_1.1_spec</td><td>1.1.1</td><td>Provides open-source implementations of Sun specifications.</td>
+			<td>org.hibernate.entitymanager.source</td><td>Sources for hibernate-entitymanager</td><td>4.2.7.Final</td><td>Hibernate ORM JPA Entity Manager</td>
 		</tr>
 		<tr>
 			<td>org.apache.commons.collections</td><td>Commons Collections</td><td>3.2.1</td><td>Types that extend and augment the Java Collections Framework.</td>
@@ -83,7 +77,13 @@
 			<td>org.apache.servicemix.bundles.dbunit</td><td>Apache ServiceMix :: Bundles :: dbunit</td><td>2.5.1.1</td><td>This OSGi bundle wraps dbunit 2.5.1 jar file.</td>
 		</tr>
 		<tr>
-			<td>slf4j.api.source</td><td>Sources for slf4j-api</td><td>1.7.12</td><td>The slf4j API</td>
+			<td>org.jboss.spec.javax.transaction.jboss-transaction-api_1.1_spec</td><td>Java Transaction API</td><td>1.0.1.Final</td><td>The Java Transaction 1.1 API classes</td>
+		</tr>
+		<tr>
+			<td>slf4j.api.source</td><td>Sources for slf4j-api</td><td>1.7.10</td><td>The slf4j API</td>
+		</tr>
+		<tr>
+			<td>org.hibernate.core.eclipse.source</td><td>Sources for hibernate-core</td><td>4.2.7.Final</td><td>Hibernate ORM Core</td>
 		</tr>
 		<tr>
 			<td>org.apache.geronimo.specs.geronimo-jpa_2.0_spec.source</td><td>Sources for Apache Geronimo JSR-317 JPA 2.0 Spec API</td><td>1.1.0</td><td>Implementation of Sun JSR-317 JPA 2.0 Spec API</td>
@@ -92,10 +92,7 @@
 			<td>org.apache.geronimo.specs.geronimo-jpa_2.0_spec</td><td>Apache Geronimo JSR-317 JPA 2.0 Spec API</td><td>1.1.0</td><td>Implementation of Sun JSR-317 JPA 2.0 Spec API</td>
 		</tr>
 		<tr>
-			<td>org.hibernate.core.eclipse.source</td><td>Sources for hibernate-core</td><td>5.0.6.Final</td><td>A module of the Hibernate O/RM project</td>
-		</tr>
-		<tr>
-			<td>org.hibernate.common.hibernate-commons-annotations</td><td>hibernate-commons-annotations</td><td>5.0.1.Final</td><td></td>
+			<td>org.hibernate.common.hibernate-commons-annotations</td><td>hibernate-commons-annotations</td><td>4.0.4.Final</td><td></td>
 		</tr>
 		<tr>
 			<td>org.apache.servicemix.bundles.antlr</td><td>Apache ServiceMix :: Bundles :: antlr</td><td>2.7.7.5</td><td>This OSGi bundle wraps antlr 2.7.7 jar file.</td>
@@ -105,9 +102,6 @@
 		</tr>
 		<tr>
 			<td>org.apache.commons.collections.source</td><td>Sources for Commons Collections</td><td>3.2.1</td><td>Types that extend and augment the Java Collections Framework.</td>
-		</tr>
-		<tr>
-			<td>org.apache.aries.jpa.api.source</td><td>Sources for Aries JPA Container API</td><td>1.0.0</td><td>Aries top-level parent pom</td>
 		</tr>
 		<tr>
 			<td>osgi.core</td><td>osgi.core</td><td>4.3.1.201210102023</td><td>OSGi Service Platform Release 4 Version 4.3, Core Interfaces and Classes for use in compiling bundles.</td>
@@ -122,52 +116,46 @@
 			<td>org.apache.servicemix.bundles.dbunit.source</td><td>Sources for Apache ServiceMix :: Bundles :: dbunit</td><td>2.5.1.1</td><td>This OSGi bundle wraps dbunit 2.5.1 jar file.</td>
 		</tr>
 		<tr>
-			<td>org.apache.aries.jpa.container.source</td><td>Sources for Aries JPA Container</td><td>1.0.0</td><td>Aries top-level parent pom</td>
+			<td>org.apache.aries.jpa.container.source</td><td>Sources for Apache Aries JPA container</td><td>2.0.0</td><td>Implements the OSGi JPA Container from the enterprise spec. Provider a EntityManagerFactory and EntityManagerFactoryBuilder service</td>
 		</tr>
 		<tr>
-			<td>org.apache.aries.util</td><td>Apache Aries Util</td><td>1.0.0</td><td>This bundle contains the OSGi common util for Apache Aries</td>
+			<td>org.apache.aries.util</td><td>Apache Aries Util</td><td>1.1.1</td><td>This bundle contains the OSGi common util for Apache Aries</td>
 		</tr>
 		<tr>
-			<td>org.apache.aries.jpa.api</td><td>Aries JPA Container API</td><td>1.0.0</td><td>Aries top-level parent pom</td>
+			<td>org.hibernate.osgi.source</td><td>Sources for hibernate-osgi</td><td>4.2.7.Final</td><td>Hibernate ORM OSGi</td>
 		</tr>
 		<tr>
-			<td>org.hibernate.osgi.source</td><td>Sources for hibernate-osgi</td><td>5.0.6.Final</td><td>A module of the Hibernate O/RM project</td>
+			<td>org.jboss.jandex.source</td><td>Sources for Java Annotation Indexer</td><td>1.2.0.Final</td><td>Parent POM for JBoss projects. Provides default project build configuration.</td>
 		</tr>
 		<tr>
-			<td>org.jboss.jandex.source</td><td>Sources for Java Annotation Indexer</td><td>2.0.0.Final</td><td>Parent POM for JBoss projects. Provides default project build configuration.</td>
+			<td>org.apache.aries.jpa.container</td><td>Apache Aries JPA container</td><td>2.0.0</td><td>Implements the OSGi JPA Container from the enterprise spec. Provider a EntityManagerFactory and EntityManagerFactoryBuilder service</td>
 		</tr>
 		<tr>
-			<td>org.jboss.logging.jboss-logging.source</td><td>Sources for JBoss Logging 3</td><td>3.3.0.Final</td><td>The JBoss Logging Framework</td>
+			<td>org.jboss.logging.jboss-logging.source</td><td>Sources for JBoss Logging 3</td><td>3.1.3.GA</td><td>The JBoss Logging Framework</td>
 		</tr>
 		<tr>
-			<td>org.apache.aries.jpa.container</td><td>Aries JPA Container</td><td>1.0.0</td><td>Aries top-level parent pom</td>
-		</tr>
-		<tr>
-			<td>org.hibernate.javax.persistence.hibernate-jpa-2.1-api.source</td><td>Sources for hibernate-jpa-2.1-api</td><td>1.0.0.Final</td><td></td>
-		</tr>
-		<tr>
-			<td>slf4j.api</td><td>slf4j-api</td><td>1.7.12</td><td>The slf4j API</td>
+			<td>slf4j.api</td><td>slf4j-api</td><td>1.7.10</td><td>The slf4j API</td>
 		</tr>
 		<tr>
 			<td>osgi.cmpn.source</td><td>Sources for osgi.cmpn</td><td>4.3.1.201210102024</td><td>OSGi Service Platform Release 4 Version 4.3, Compendium Interfaces and Classes for use in compiling bundles.</td>
 		</tr>
 		<tr>
-			<td>org.jboss.logging.jboss-logging</td><td>JBoss Logging 3</td><td>3.3.0.Final</td><td>The JBoss Logging Framework</td>
+			<td>org.jboss.logging.jboss-logging</td><td>JBoss Logging 3</td><td>3.1.3.GA</td><td>The JBoss Logging Framework</td>
 		</tr>
 		<tr>
-			<td>org.apache.geronimo.specs.geronimo-jta_1.1_spec.source</td><td>Sources for geronimo-jta_1.1_spec</td><td>1.1.1</td><td>Provides open-source implementations of Sun specifications.</td>
+			<td>org.hibernate.common.hibernate-commons-annotations.source</td><td>Sources for hibernate-commons-annotations</td><td>4.0.4.Final</td><td></td>
 		</tr>
 		<tr>
-			<td>org.hibernate.common.hibernate-commons-annotations.source</td><td>Sources for hibernate-commons-annotations</td><td>5.0.1.Final</td><td></td>
+			<td>org.hibernate.core.eclipse</td><td>hibernate-core</td><td>4.2.7.Final</td><td>Hibernate ORM Core</td>
 		</tr>
 		<tr>
-			<td>org.hibernate.core.eclipse</td><td>hibernate-core</td><td>5.0.6.Final</td><td>A module of the Hibernate O/RM project</td>
+			<td>org.jboss.spec.javax.transaction.jboss-transaction-api_1.1_spec.source</td><td>Sources for Java Transaction API</td><td>1.0.1.Final</td><td>The Java Transaction 1.1 API classes</td>
 		</tr>
 		<tr>
-			<td>org.jboss.jandex</td><td>Java Annotation Indexer</td><td>2.0.0.Final</td><td>Parent POM for JBoss projects. Provides default project build configuration.</td>
+			<td>org.jboss.jandex</td><td>Java Annotation Indexer</td><td>1.2.0.Final</td><td>Parent POM for JBoss projects. Provides default project build configuration.</td>
 		</tr>
 		<tr>
-			<td>org.hibernate.entitymanager</td><td>hibernate-entitymanager</td><td>5.0.6.Final</td><td>A module of the Hibernate O/RM project</td>
+			<td>org.hibernate.entitymanager</td><td>hibernate-entitymanager</td><td>4.2.7.Final</td><td>Hibernate ORM JPA Entity Manager</td>
 		</tr>
 	</tbody>
 </table>
